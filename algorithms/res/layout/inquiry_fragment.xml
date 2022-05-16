@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/inquiryFragmentView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:original="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/inquiryHeaderView" android:background="@drawable/headerbar01" android:layout_width="fill_parent" android:layout_height="44.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:id="@id/inquiryBackButton" android:background="@drawable/back_button" android:layout_width="53.0dip" android:layout_height="43.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_alignParentLeft="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/inquiryMenuText" android:layout_width="wrap_content" android:layout_height="44.0dip" android:text="バブルソート" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/inquiryScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" android:fillViewport="true" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:id="@id/inquiryScrollInnerView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <View android:id="@id/spaceView" android:layout_width="1.0dip" android:layout_height="523.0dip" />
+            <Button android:textSize="16.0dip" android:id="@id/sendButton" android:background="@drawable/btn_general1" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentLeft="true" style="@style/generalButtonStyle" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

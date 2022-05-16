@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/settingMainView" android:background="#ffebf0f1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sampleHeaderView" android:background="@drawable/headerbar01" android:layout_width="fill_parent" android:layout_height="44.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:id="@id/sampleBackButton" android:background="@drawable/back_button" android:layout_width="53.0dip" android:layout_height="43.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_alignParentLeft="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/sampleMenuText" android:layout_width="wrap_content" android:layout_height="44.0dip" android:text="バブルソート" android:layout_centerInParent="true" />
+        <Button android:id="@id/sampleBtnNavRight" android:background="@drawable/btn_nav_study" android:layout_width="53.0dip" android:layout_height="43.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:id="@id/descText" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>
